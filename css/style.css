@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+	font-family: "Comic San MS", cursive, sans-serif;
+}
+
+body{
+	background-color: black;
+}
+
+#tophead1{
+	text-align: left;
+	color: red;
+}
+#tophead2{
+	text-align: center;
+	color: cornsilk;
+}
+
+.para1{
+  color: black;
+  background-color: green;
+}
+.para2{
+  color: black;
+  background-color: skyblue;
+} 
+.para3{
+	color: black;
+  background-color: red;
+}
+
+h2{
+	color: #000080
+}
+
+section{
+	border: 5px solid white ;
+  padding: 5px;
+	margin: 10px;
+
+}
+
+h2{
+	border: 3px solid black;
+	margin:0;
+	text-align: center;
+	float:right;
+	position: relative;
+	font-size: 25px;
+	padding: 5px;
+	height: 80px;
+	width: 300px;
+}
+
+section.para1>h2{
+	background-color: cornsilk;
+}
+
+section.para2>h2{
+	background-color: cornsilk;
+}
+
+section.para3>h2{
+	background-color: cornsilk;
+}
+
+.row{
+	width: 100%;
+}
+
+section>p {
+	clear:both;
+	height: 200px;
+}
+
+
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-lg-1{
+    float: left;
+    width: 100%;
+  }
+}
